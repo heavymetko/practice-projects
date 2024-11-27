@@ -21,6 +21,7 @@ export default {
         'linear-gradient(135deg, hsl(0, 90%, 86%), hsl(0, 74%, 74%))',
       'hover-pink':
         'linear-gradient(135deg, hsl(0, 0%, 90%), hsl(0, 100%, 90%))',
+      'desktop-background': 'url(assets/bg-pattern-desktop.svg)',
     },
   },
   plugins: [],

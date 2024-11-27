@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <div>
       <img
-        className='lg:hidden w-full'
+        className='lg:hidden w-full '
         src='./src/assets/hero-mobile.jpg'
         alt=''
       />

@@ -17,7 +17,7 @@ export default function Main() {
   };
 
   return (
-    <div className='p-9 lg:px-6 md:max-w-md md:m-auto lg:ml-10 font-josefinSans flex flex-col items-center max-w-sm m-auto '>
+    <div className='p-9 font-josefinSans flex flex-col items-center max-w-sm m-auto md:max-w-md md:m-auto lg:ml-10 lg:px-6 '>
       <div className='text-center text-3xl uppercase tracking-xlwide md:text-4xl lg:text-left lg:text-5xl '>
         <h1 className=' text-desturatedRed font-light'>
           We're
@@ -39,7 +39,7 @@ export default function Main() {
           } border rounded-3xl h-10`}
         >
           <input
-            className='flex-1 text-xs placeholder:text-desturatedRedLight px-4 rounded-l-3xl focus:outline-none'
+            className='flex-1 text-xs placeholder:text-desturatedRedLight px-4 bg-transparent rounded-l-3xl focus:outline-none'
             type='text'
             value={email}
             onChange={(e) => setEmail(e.target.value)}
